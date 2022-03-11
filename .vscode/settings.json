@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./bazel-smartsheet-explorer/external/my_deps/pypi__smartsheet_python_sdk/smartsheet"
+    ]
+}

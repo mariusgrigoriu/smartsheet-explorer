@@ -1,0 +1,11 @@
+load("@rules_python//python:defs.bzl", "py_binary")
+load("@my_deps//:requirements.bzl", "requirement")
+
+py_binary(
+    name = "smartsheet_explorer",
+    srcs = ["smartsheet_explorer.py"],
+    deps = [
+        requirement("smartsheet-python-sdk"),
+        requirement("pptree"),
+    ],
+)
